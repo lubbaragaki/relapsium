@@ -1,0 +1,6 @@
+#!/bin/zsh
+
+odin build ../src -build-mode:exe -out:relapsium 
+
+
+
