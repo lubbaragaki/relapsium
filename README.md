@@ -39,7 +39,7 @@ Commands:
 
 new:<name>   Creates a new habit called
 
-relapse:<name> [d]    Adds a relapse after d number of dyas
+relapse:<name> [d]    Adds a relapse after d number of days
 
 stat:<name>   Display statistics of habit called name
 ```
