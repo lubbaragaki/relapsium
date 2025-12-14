@@ -19,6 +19,9 @@ parse_input :: proc(numbers: string) -> []int {
     num, ok := strconv.parse_int(digit)
     append_elem(&output, num)
   }
+  
+  // Because the 'cat' command adds a newline, the slice has an extra element
+  pop(&output)
 
   const_output: []int = output[:]
   return const_output
